@@ -1,6 +1,0 @@
-[submodule "OOPS"]
-	path = OOPS
-	url = https://github.com/GOUTHAM9955/OOPS
-[submodule "CollectionsAndGenerics"]
-	path = CollectionsAndGenerics
-	url = https://github.com/GOUTHAM9955/Collections-Generics
