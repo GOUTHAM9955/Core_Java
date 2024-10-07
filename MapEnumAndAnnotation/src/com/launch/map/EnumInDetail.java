@@ -2,6 +2,8 @@ package com.launch.map;
 
 
 enum Result{
+	// We define named constants in enums so they should be in all caps.
+	// The name and value of these named constants is same. PASS is value and PASS is the name of it's named constant
 	PASS, FAIL, NR;
 	//Everytime when we create an enum a class is getting created in background, in this case 3 classes are created
 	// public static final Result PASS = new Result(); 
@@ -35,6 +37,10 @@ enum Result{
 public class EnumInDetail {
 
 	public static void main(String[] args) {
+		
+		// to get all the values
+		Result[] res = Result.values(); 
+		
 		Result.PASS.setMarks(60);
 		int marks1 = Result.PASS.getMarks();
 		

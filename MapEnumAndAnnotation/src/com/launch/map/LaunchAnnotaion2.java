@@ -18,7 +18,10 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE) // we can declare multiple targets >> @Target({ElementType.TYPE, ElementType.METHOD, ...})
+						// We are using ENUMS to define RetuntionPolicy and ElementType(ex: RUNTIME , SOURCE, TYPE, METHOD)
 @interface CricketPlayer{
+	// We can pass values to annotations by declaring the attributes
+	// We use below syntax to define the attribute
 	String country() default "India"; // If we specify default value we may or may not declare the value while initializing it
 	int age() default 35;
 }
