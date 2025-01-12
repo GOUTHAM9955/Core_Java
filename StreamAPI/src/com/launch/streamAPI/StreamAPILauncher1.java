@@ -36,7 +36,7 @@ public class StreamAPILauncher1 {
 		System.out.println("Size of stream :"+ size);
 		
 		// ONCE YOU PERFORM AN OPERATION ON A STREAM WE CANNOT REUSE IT 
-		// So, when we try to perform any other operation on the above stream1 it will trown run time exception
+		// So, when we try to perform any other operation on the above stream it will trown run time exception
 		
 		
 		// ***********FILTER ODD VALUES IN STREAM *****************
