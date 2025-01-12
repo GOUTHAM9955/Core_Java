@@ -120,7 +120,7 @@ public class StreamAPILauncher1 {
 			
 			// USING OPTIONAL STRING
 			
-			// In case of methods sunch as findFirst where we can get null pointer exception which cannot be handled as they are checked exceptions we have to use optional strings
+			// In case of methods sunch as findFirst where we can get null pointer exception which cannot be handled as they are unchecked exceptions we have to use optional strings
 			
 			List<String> names = List.of("GK","Harish","Peter","Raj");
 			
